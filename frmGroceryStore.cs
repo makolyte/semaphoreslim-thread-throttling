@@ -28,6 +28,7 @@ namespace ThreadingExample
             string m = $"{DateTime.Now.ToString("H:mm:ss.fffff")}\t{msg}\n";
             control.BeginInvoke((MethodInvoker)delegate ()
             {
+                //Need to do this when updating UI from a different thread
                 txtLog.AppendText(m);
                 txtLog.ScrollToCaret();
             });
@@ -35,7 +36,6 @@ namespace ThreadingExample
         
         private void btnSendToCheckout_Click(object sender, EventArgs e)
         {
-
             SendShoppersToCheckout((int)numShoppers.Value);
         }
         private void SendShoppersToCheckout(int numberOfShoppers)
