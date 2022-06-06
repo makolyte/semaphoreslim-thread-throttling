@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SempahoreSlimThrottlingExample", "SempahoreSlimThrottlingExample.csproj", "{24B41EAC-613F-4A40-A5D0-6E0417FB0D60}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{24B41EAC-613F-4A40-A5D0-6E0417FB0D60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24B41EAC-613F-4A40-A5D0-6E0417FB0D60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24B41EAC-613F-4A40-A5D0-6E0417FB0D60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24B41EAC-613F-4A40-A5D0-6E0417FB0D60}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2E553B6F-5F36-4840-B8E2-E79AF65F97E0}
+	EndGlobalSection
+EndGlobal
